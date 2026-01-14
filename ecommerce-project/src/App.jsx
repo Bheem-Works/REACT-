@@ -2,8 +2,6 @@
 function App(){
   return(
     <>
-
-    
     </>
   )
 }
