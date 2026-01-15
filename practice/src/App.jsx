@@ -1,11 +1,11 @@
 import React from 'react';
-// import Prop from './components/Prop';
-import Toggle from './components/Toggle';
+import PropOne from './components/PropOne';
+import MainProp from './components/MainProp';
 
 const App = () => {
   return (
     <div>
-      <Toggle />
+      <MainProp />
     </div>
   );
 }
