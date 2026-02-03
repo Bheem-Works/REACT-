@@ -23,6 +23,20 @@ const OneMain = () => {
         },[count]);
 
 
+    // Return Case : 
+        useEffect(() => {
+            
+          const id = setInterval(() => {
+            console.log("count",count);
+          }, 1000);
+        
+          return () => {
+            clearInterval(id);
+          }
+        }, [count]);
+        
+
+
     return (
         <div>
             <button
