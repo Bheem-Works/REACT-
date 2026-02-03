@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import Nav from './useEffect/Nav';
 
 const OneMain = () => {
 
@@ -35,10 +36,11 @@ const OneMain = () => {
           }
         }, [count]);
         
-
+       
 
     return (
         <div>
+            <Nav color="blue" />
             <button
              onClick={()=>setCount(count + 1)}>count : {count}</button>
         </div>
